@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site associateSitesURL="associateSites.xml">
+
+   <description name="Sprotty" url="https://projects.eclipse.org/projects/ecd.sprotty">
+      Update site for Sprotty builds.
+   </description>
+   
+   <bundle id="org.eclipse.sprotty" version="0.7.0.qualifier"/>
+
+</site>
