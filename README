@@ -1,0 +1,13 @@
+This repository holds prebuilt jars of the Sprotty project, see
+
+  https://projects.eclipse.org/projects/ecd.sprotty
+  https://github.com/eclipse/sprotty-server
+
+to learn more and find the source code. The code is made available under the Eclipse Public License 2.0 (EPL-2.0),
+which can be read in the LICENSE file.
+
+The main directories of the repository are the following:
+
+  plugins        The plugin containing the jars of Sprotty to be publishable as a p2 update site
+  features       Eclipse features for bundling public plugins
+  build          Configuration files for automatic builds using Maven
