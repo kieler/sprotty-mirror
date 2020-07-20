@@ -3,7 +3,7 @@
   <parent>
       <groupId>org.eclipse.sprotty.p2</groupId>
       <artifactId>plugins</artifactId>
-      <version>0.7.0</version>
+      <version>0.8.0</version>
   </parent>
   
   <artifactId>org.eclipse.sprotty</artifactId>
@@ -13,45 +13,45 @@
         <dependency>
             <groupId>org.eclipse.sprotty</groupId>
             <artifactId>org.eclipse.sprotty</artifactId>
-            <version>0.7.0</version>
+            <version>0.8.0</version>
         </dependency>
         <dependency>
             <groupId>org.eclipse.sprotty</groupId>
             <artifactId>org.eclipse.sprotty</artifactId>
-            <version>0.7.0</version>
+            <version>0.8.0</version>
             <classifier>sources</classifier>
         </dependency>
         <dependency>
             <groupId>org.eclipse.sprotty</groupId>
             <artifactId>org.eclipse.sprotty.server</artifactId>
-            <version>0.7.0</version>
+            <version>0.8.0</version>
         </dependency>
         <dependency>
             <groupId>org.eclipse.sprotty</groupId>
             <artifactId>org.eclipse.sprotty.server</artifactId>
-            <version>0.7.0</version>
+            <version>0.8.0</version>
             <classifier>sources</classifier>
         </dependency>
         <dependency>
             <groupId>org.eclipse.sprotty</groupId>
             <artifactId>org.eclipse.sprotty.layout</artifactId>
-            <version>0.7.0</version>
+            <version>0.8.0</version>
         </dependency>
         <dependency>
             <groupId>org.eclipse.sprotty</groupId>
             <artifactId>org.eclipse.sprotty.layout</artifactId>
-            <version>0.7.0</version>
+            <version>0.8.0</version>
             <classifier>sources</classifier>
         </dependency>
         <dependency>
             <groupId>org.eclipse.sprotty</groupId>
             <artifactId>org.eclipse.sprotty.xtext</artifactId>
-            <version>0.7.0</version>
+            <version>0.8.0</version>
         </dependency>
         <dependency>
             <groupId>org.eclipse.sprotty</groupId>
             <artifactId>org.eclipse.sprotty.xtext</artifactId>
-            <version>0.7.0</version>
+            <version>0.8.0</version>
             <classifier>sources</classifier>
         </dependency>
     </dependencies>

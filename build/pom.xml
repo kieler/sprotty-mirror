@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.eclipse.sprotty.p2</groupId>
   <artifactId>parent</artifactId>
-  <version>0.7.0</version>
+  <version>0.8.0</version>
   <packaging>pom</packaging>
 
 
@@ -57,7 +57,7 @@
             <artifact>
               <groupId>org.eclipse.sprotty.p2</groupId>
               <artifactId>org.eclipse.sprotty.targetplatform</artifactId>
-              <version>0.7.0</version>
+              <version>0.8.0</version>
             </artifact>
           </target>
 
