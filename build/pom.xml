@@ -12,25 +12,12 @@
   <properties>
     <tycho-version>1.2.0</tycho-version>
     <targetJdk>1.8</targetJdk>
-    <xtext-version>2.19.0</xtext-version>
-    <elk-version>0.5.0</elk-version>
   </properties>
-  <profiles>
 
-    <!-- The Sprotty update site. -->
-    <profile>
-      <id>sprotty</id>
-
-      <activation>
-        <activeByDefault>true</activeByDefault>
-      </activation>
-
-      <modules>
-        <module>../plugins</module>
-        <module>org.eclipse.sprotty.repository</module>
-      </modules>
-    </profile>
-  </profiles>
+  <modules>
+    <module>../plugins</module>
+    <module>org.eclipse.sprotty.repository</module>
+  </modules>
 
 
   <!-- Maven plugin repositories -->
@@ -46,14 +33,7 @@
       <name>JBoss Releases Maven Repository</name>
       <url>https://repository.jboss.org/nexus/content/repositories/releases/</url>
     </pluginRepository>
-
-    <pluginRepository>
-      <id>eclipse-elk-meta</id>
-      <name>ELK Meta Data Language Compiler Maven Repository</name>
-      <url>http://build.eclipse.org/modeling/elk/maven/meta/nightly</url>
-    </pluginRepository>
   </pluginRepositories>
-
 
   <!-- Modify the build process to add Tycho and configure some utility plug-ins. -->
   <build>
