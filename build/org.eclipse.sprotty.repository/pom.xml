@@ -3,23 +3,23 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <version>0.7.0-SNAPSHOT</version>
+  <version>0.7.0</version>
   <artifactId>org.eclipse.sprotty.repository</artifactId>
   <packaging>eclipse-repository</packaging>
   <name>Sprotty Repository</name>
 
   <parent>
-    <groupId>org.eclipse.sprotty</groupId>
+    <groupId>org.eclipse.sprotty.p2</groupId>
     <artifactId>parent</artifactId>
-    <version>0.7.0-SNAPSHOT</version>
+    <version>0.7.0</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
   <!-- These are a few properties we use for the small update site index.html that is generated. -->
   <properties>
     <update.site.name>Sprotty</update.site.name>
-    <update.site.description>Mirrored Build</update.site.description>
-    <update.site.version>2020-01</update.site.version>
+    <update.site.description>P2 Update Site Build</update.site.description>
+    <update.site.version>0.7.0</update.site.version>
     <target.eclipse.version>4.13 (2019-09)</target.eclipse.version>
   </properties>
 
@@ -43,16 +43,15 @@
             <configuration>
               <associateSites>
                 <!-- Eclipse -->
-                <associateSite>http://download.eclipse.org/releases/2019-09</associateSite>
+                <associateSite>https://download.eclipse.org/releases/2019-06/</associateSite>
+                <!-- Eclipse Orbit -->
+                <associateSite>https://download.eclipse.org/tools/orbit/downloads/drops/R20190602212107/repository/</associateSite>
                 <!-- Eclipse Layout Kernel -->
-                <associateSite>http://build.eclipse.org/modeling/elk/updates/nightly/</associateSite>
-                <!-- <associateSite>http://download.eclipse.org/elk/updates/releases/0.1.0/</associateSite> -->
-                <!-- Eclipse Orbit for Apache Batik -->
-                <associateSite>http://download.eclipse.org/tools/orbit/downloads/drops/R20190827152740/repository/</associateSite>
-                <!-- Google Guava -->
-                <associateSite>http://guava-osgi.googlecode.com/svn/trunk/repository/</associateSite>
-                <!-- Xtext repository for new versions -->
-                <associateSite>http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/</associateSite>
+                <associateSite>https://download.eclipse.org/elk/updates/releases/0.5.0/</associateSite>
+                <!-- Xtext -->
+                <associateSite>https://download.eclipse.org/modeling/tmf/xtext/updates/releases/2.18.0/</associateSite>
+                <!-- LSP4J -->
+                <associateSite>https://download.eclipse.org/lsp4j/updates/releases/0.8.0/</associateSite>
               </associateSites>
               <siteTemplateFolder>siteTemplate</siteTemplateFolder>
               <symbols>
