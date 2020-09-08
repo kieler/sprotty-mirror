@@ -5,7 +5,7 @@
       Update site for Sprotty builds.
    </description>
    
-   <bundle id="org.eclipse.sprotty" version="0.8.0"/>
-   <bundle id="org.eclipse.sprotty.source" version="0.8.0"/>
+   <bundle id="org.eclipse.sprotty" version="0.9.0"/>
+   <bundle id="org.eclipse.sprotty.source" version="0.9.0"/>
 
 </site>

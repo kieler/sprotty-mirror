@@ -3,7 +3,7 @@
   <parent>
       <groupId>org.eclipse.sprotty.p2</groupId>
       <artifactId>plugins</artifactId>
-      <version>0.8.0</version>
+      <version>0.9.0</version>
   </parent>
   
   <artifactId>org.eclipse.sprotty</artifactId>
