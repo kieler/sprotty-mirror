@@ -1,4 +1,4 @@
-This repository holds prebuilt jars of the Sprotty project, see
+This repository builds P2 artifacts for the Sprotty project, see
 
   https://projects.eclipse.org/projects/ecd.sprotty
   https://github.com/eclipse/sprotty-server
@@ -8,6 +8,5 @@ which can be read in the LICENSE file.
 
 The main directories of the repository are the following:
 
-  plugins        The plugin containing the jars of Sprotty to be publishable as a p2 update site
-  features       Eclipse features for bundling public plugins
+  plugins        The plugin containing the configuration to re-package Sprotty to be publishable as a p2 update site
   build          Configuration files for automatic builds using Maven

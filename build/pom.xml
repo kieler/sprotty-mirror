@@ -4,36 +4,20 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.eclipse.sprotty.p2</groupId>
   <artifactId>parent</artifactId>
-  <version>0.9.0</version>
+  <version>1.1.1</version>
   <packaging>pom</packaging>
 
 
   <!-- Define a few properties used throughout all build profiles. -->
   <properties>
-    <tycho-version>1.2.0</tycho-version>
-    <targetJdk>1.8</targetJdk>
+    <tycho-version>2.7.3</tycho-version>
+    <targetJdk>11</targetJdk>
   </properties>
 
   <modules>
     <module>../plugins</module>
     <module>org.eclipse.sprotty.repository</module>
   </modules>
-
-
-  <!-- Maven plugin repositories -->
-  <pluginRepositories>
-    <pluginRepository>
-      <id>central</id>
-      <name>Maven Plugin Repository</name>
-      <url>https://repo1.maven.org/maven2</url>
-    </pluginRepository>
-
-    <pluginRepository>
-      <id>jboss-releases</id>
-      <name>JBoss Releases Maven Repository</name>
-      <url>https://repository.jboss.org/nexus/content/repositories/releases/</url>
-    </pluginRepository>
-  </pluginRepositories>
 
   <!-- Modify the build process to add Tycho and configure some utility plug-ins. -->
   <build>
@@ -57,7 +41,7 @@
             <artifact>
               <groupId>org.eclipse.sprotty.p2</groupId>
               <artifactId>org.eclipse.sprotty.targetplatform</artifactId>
-              <version>0.9.0</version>
+              <version>1.1.1</version>
             </artifact>
           </target>
 
@@ -65,17 +49,7 @@
             <environment>
               <os>linux</os>
               <ws>gtk</ws>
-              <arch>x86</arch>
-            </environment>
-            <environment>
-              <os>linux</os>
-              <ws>gtk</ws>
               <arch>x86_64</arch>
-            </environment>
-            <environment>
-              <os>win32</os>
-              <ws>win32</ws>
-              <arch>x86</arch>
             </environment>
             <environment>
               <os>win32</os>
@@ -86,6 +60,11 @@
               <os>macosx</os>
               <ws>cocoa</ws>
               <arch>x86_64</arch>
+            </environment>
+            <environment>
+              <os>macosx</os>
+              <ws>cocoa</ws>
+              <arch>aarch64</arch>
             </environment>
           </environments>
         </configuration>
